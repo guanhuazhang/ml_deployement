@@ -34,11 +34,11 @@ created a Deployment object that exposed two identical copies of trained machine
    
    create and ssh into a new Pod in the cluster.
    
-    kubectl run python3 -ti --image=python:3.6 --command=true bash
+    kubectl run python3 -ti --image=python:3.7 --command=true bash
    
    Now that we’re in a Pod in the cluster. let’s query our REST API using the cURL command:
     
-    root@python3-5bf5ddf449-2pb7p:/ curl -i -H "Content-Type: application/json" -X POST -d '{"CRIM": 15.02, "ZN": 0.0, "INDUS": 18.1, "CHAS": 0.0, "NOX": 0.614, "RM": 5.3, "AGE": 97.3, "DIS": 2.1, "RAD": 24.0, "TAX": 666.0, "PTRATIO": 20.2, "B": 349.48, "LSTAT": 24.9}' 10.1.0.xxx:5000/predict
+    curl -i -H "Content-Type: application/json" -X POST -d '{"CRIM": 15.02, "ZN": 0.0, "INDUS": 18.1, "CHAS": 0.0, "NOX": 0.614, "RM": 5.3, "AGE": 97.3, "DIS": 2.1, "RAD": 24.0, "TAX": 666.0, "PTRATIO": 20.2, "B": 349.48, "LSTAT": 24.9}' 10.1.0.xxx:5000/predict
     
 ## delete the Deployments 
     kubectl delete deployment k8-model-api python3

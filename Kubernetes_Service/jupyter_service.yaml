@@ -1,0 +1,35 @@
+# this file contains the configuration for both a Service and a Deployment. When you call the Kubernetes API and and
+#pass in this file, Kubernetes will create both resources.
+
+apiVersion: v1
+kind: Service
+metadata:
+  name: jupyter-service
+spec:
+  ports:
+  - port: 8888
+    targetPort: 8888
+  selector:
+    app: jupyter-deployment
+  type: LoadBalancer
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: jupyter-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: jupyter-deployment
+  template:
+    metadata:
+      labels:
+        app: jupyter-deployment
+    spec:
+      containers:
+      - name: jupyter-container
+        imagePullPolicy: Always
+        image: jupyter/base-notebook:latest
+        ports:
+        - containerPort: 8888
