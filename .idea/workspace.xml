@@ -1,12 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49f31159-b765-4e23-9496-de59cec51183" name="Default Changelist" comment="" />
+    <list default="true" id="49f31159-b765-4e23-9496-de59cec51183" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/docker_restapi_online_predictions/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker_restapi_online_predictions/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker_restapi_online_predictions/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/docker_restapi_online_predictions/train.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -15,9 +28,13 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/docker_restapi_online_predictions" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/docker_restapi_online_predictions" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/simple_docker" />
     </key>
@@ -45,7 +62,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578361515331</updated>
       <workItem from="1578361516446" duration="779000" />
-      <workItem from="1578362328321" duration="2458000" />
+      <workItem from="1578362328321" duration="3703000" />
     </task>
     <servers />
   </component>
