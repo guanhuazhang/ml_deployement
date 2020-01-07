@@ -1,0 +1,21 @@
+apiVersion: apps/v1beta1
+kind: Deployment
+metadata:
+  name: k8-model-api
+spec:   # The spec field specifies the characteristics you want the resource to have
+  replicas: 2   # created 2 pods
+  selector:
+    matchLabels:
+      app: model-api
+  template:
+    metadata:
+      labels:
+        app: model-api
+    spec:
+      containers:
+      - name: model-api
+        imagePullPolicy: Always
+        image: gzmkobe/k8-model-api:latest
+        command: ["python3",  "api.py"]
+        ports:
+        - containerPort: 5000

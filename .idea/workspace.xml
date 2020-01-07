@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49f31159-b765-4e23-9496-de59cec51183" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Kubernetes_jobs_batch_predictions/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kubernetes_jobs_batch_predictions/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kubernetes_jobs_batch_predictions/inference.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kubernetes_jobs_batch_predictions/train.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Kubernetes_jobs_batch_predictions/train.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kubernetes_deployment_online_predictions/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kubernetes_deployment_online_predictions/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kubernetes_deployment_online_predictions/api.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kubernetes_deployment_online_predictions/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kubernetes_deployment_online_predictions/requirements.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Kubernetes_deployment_online_predictions/train.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -29,11 +30,13 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/docker_restapi_online_predictions" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Kubernetes_deployment_online_predictions" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Kubernetes_deployment_online_predictions" />
+      <recent name="$PROJECT_DIR$/Kubernetes_cronjobs_batch_predictions" />
       <recent name="$PROJECT_DIR$/docker_restapi_online_predictions" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -63,7 +66,7 @@
       <option name="presentableId" value="Default" />
       <updated>1578361515331</updated>
       <workItem from="1578361516446" duration="779000" />
-      <workItem from="1578362328321" duration="5451000" />
+      <workItem from="1578362328321" duration="7742000" />
     </task>
     <servers />
   </component>
