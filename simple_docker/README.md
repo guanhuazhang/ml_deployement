@@ -1,5 +1,3 @@
-############## run the command below ##############
-
 # build docker
 
     docker build -t docker-model -f Dockerfile .  
