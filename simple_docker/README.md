@@ -1,8 +1,9 @@
-############## run the command below ##############
-docker build -t docker-model -f Dockerfile .  # build docker
+    ############## run the command below ##############
 
-docker run docker-model cat ./model/metadata.json   
+    docker build -t docker-model -f Dockerfile .  # build docker
 
-run inference through existing docker(dont need re run docker)
+    docker run docker-model cat ./model/metadata.json   
 
-docker run docker-model python3 inference.py
+    run inference through existing docker(dont need re run docker)
+
+    docker run docker-model python3 inference.py
